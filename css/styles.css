@@ -1,0 +1,113 @@
+@import "variables.css";
+
+@font-face {
+    font-family: "ZenDots-Regular";
+    src: url(/fonts/ZenDots-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Unbounded-Light";
+    src: url(/fonts/Unbounded-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Unbounded-Regular";
+    src: url(/fonts/Unbounded-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Unbounded-Bold";
+    src: url(/fonts/Unbounded-Bold.ttf) format("truetype");
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header, footer {
+    background-color: var(--header-color);
+    color: var(--light-text-color);
+    padding: 0px;
+}
+
+header img, footer img {
+    width: 20%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--h1-font);
+}
+
+h4 {
+    font-family: var(--h4-font);
+}
+
+h5 {
+    font-family: var(--h5-font);
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.hamburger-nav {
+    background-color: var(--header-color);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    padding-bottom: 20px;
+    line-height: 2rem;
+}
+
+button {
+    float: right;
+  font-size: 24px;
+    background-color: var(--header-color);
+    color: var(--light-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+}
+.bars {
+    font-size: 28px;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    background-color: var(--header-color);
+    font-family: var(--menu-font);
+}
+
+nav, 
+#menu-checkbox {
+    display: none;
+}

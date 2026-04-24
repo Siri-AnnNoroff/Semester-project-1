@@ -1,0 +1,11 @@
+:root {
+    --header-color: #2F1D72;
+    --footer-color: #2F1D72;
+    --light-text-color: #ffffff;
+    --dark-text-color: #000000; 
+    --menu-font: "Unbounded-Bold";
+    --h1-font: "ZenDots-Regular";
+    --h4-font: "Unbounded-Regular";
+    --h5-font: "Unbounded-Light";
+
+}
