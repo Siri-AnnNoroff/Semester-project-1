@@ -174,3 +174,17 @@ img {
 .cta:hover {
     border: solid 1px #000;
 }
+
+.cta-small {
+
+}
+
+.color-card img {
+
+}
+
+.color-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+}
