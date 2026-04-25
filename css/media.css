@@ -5,6 +5,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 .header-top {
     display: flex;
     flex-direction: row;
@@ -13,30 +14,31 @@ header {
     gap: 16px;
 }
 
-    .footer-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-    .nav-large {
-        display: block;
-        position: static;
+.nav-large {
+    display: block;
+    position: static;
     width: 100%;
     font-family: var(--menu-font);
-    }
+}
 
- .nav-large ul {
+.nav-large ul {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
     position: static;  
 }
 
-  .bars {
+.bars {
     display: none;
-  }
-  h1 {
+}
+
+h1 {
     font-size: 2rem;
-  }
+}
 
 }

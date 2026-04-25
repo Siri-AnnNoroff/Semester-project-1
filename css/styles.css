@@ -41,6 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .header-top {
     display: flex;
     flex-direction: row;
@@ -51,9 +52,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 
 .footer-content {
     display: grid;
@@ -102,6 +101,7 @@ ul {
     padding: 0px;
     margin: 0px;
 }
+
 li {
     list-style-type: none;
     text-align: center;
