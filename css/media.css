@@ -41,8 +41,11 @@ h1 {
     font-size: 2rem;
 }
 
-.hero-image h2 {
+.hero-image h2, .second-hero h2  {
     font-size: 2rem;
 }
 
+.cta {
+    font-size: 2rem;
+}
 }

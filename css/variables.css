@@ -3,10 +3,12 @@
     --footer-color: #2F1D72;
     --light-text-color: #ffffff;
     --dark-text-color: #000000; 
+    --cta-background-color: #fff;
     --menu-font: "Unbounded-Bold";
     --h1-font: "ZenDots-Regular";
     --h2-font: "Unbounded-Regular";
     --h4-font: "Unbounded-Regular";
     --h5-font: "Unbounded-Light";
+    --cta-font: "Unbounded-Regular";
 
 }
