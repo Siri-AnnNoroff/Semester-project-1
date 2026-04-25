@@ -138,10 +138,14 @@ img {
 }
 
 .hero-image {
+    
+}
+
+.hero-image, .second-hero {
     position: relative;
 }
 
-.hero-image h2 {
+.hero-image h2, .second-hero h2 {
     width: 100%;
     background-color: var(--header-color);
     color: var(--light-text-color);
