@@ -130,3 +130,25 @@ nav,
 #menu-checkbox {
     display: none;
 }
+
+/*index*/
+
+img {
+    max-width: 100%;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image h2 {
+    width: 100%;
+    background-color: var(--header-color);
+    color: var(--light-text-color);
+    font-family: var(--h2-font);
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
