@@ -66,6 +66,11 @@ h1 {
     font-family: var(--h1-font);
 }
 
+h2 {
+    font-family: var(--h2-font);
+    text-align: center;
+}
+
 h4 {
     font-family: var(--h4-font);
 }
@@ -228,3 +233,12 @@ img {
 }
 
 
+/*visit us*/
+
+.location {
+    background-color: #DFE8FD;
+}
+
+.location h3, .location h4, .location h5 {
+    text-align: center;
+}
