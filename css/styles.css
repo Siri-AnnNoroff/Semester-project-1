@@ -206,7 +206,7 @@ img {
 
 .color-card {
     position: relative;
-    border: 20px solid #000;
+    border: 30px solid #000;
     display: flex;
     flex-direction: column;
     background: #000;
