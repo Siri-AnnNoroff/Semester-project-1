@@ -68,4 +68,25 @@ h1 {
 .card-text {
     font-size: 1.2rem;
 }
+
+.card-cosmology:hover {
+background-color: #521413;
+}
+
+.card-robotics:hover {
+    background-color: #B800E5;
+}
+
+.card-evolution:hover {
+    background-color: #DBD5CA;
+}
+
+.card-ecology:hover {
+    background-color: #1C889E;
+}
+
+.card-biology:hover {
+    background-color: #D75F45;
+}
+
 }
