@@ -59,7 +59,7 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
-h1 {
+.index-h1 {
     flex: 1;
     font-size: 1rem;
     text-align: center;
