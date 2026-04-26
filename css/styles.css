@@ -59,7 +59,7 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
-.index-h1 {
+.index-h1, .brand-name {
     flex: 1;
     font-size: 1rem;
     text-align: center;
@@ -85,6 +85,10 @@ h5 {
     font-family: var(--h5-font);
     font-weight: lighter;
     font-size: 1rem;
+}
+
+p {
+    font-family: var(--p-font);
 }
 
 nav {
