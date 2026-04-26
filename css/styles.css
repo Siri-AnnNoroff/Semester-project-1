@@ -68,11 +68,17 @@ header {
 
 h2 {
     font-family: var(--h2-font);
-    text-align: center;
+    font-weight:normal;
+}
+
+h3 {
+    font-family: var(--h3-font);
+    font-weight: normal;
 }
 
 h4 {
     font-family: var(--h4-font);
+    font-weight: lighter;
 }
 
 h5 {
