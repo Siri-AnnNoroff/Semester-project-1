@@ -63,12 +63,20 @@ header {
     flex: 1;
     font-size: 1rem;
     text-align: center;
-    font-family: var(--h1-font);
+    font-family: var(--brand-font);
 }
+
+h1 {
+    font-family: var(--h1-font);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+} 
 
 h2 {
     font-family: var(--h2-font);
     font-weight:normal;
+    text-align: center;
 }
 
 h3 {
@@ -89,6 +97,7 @@ h5 {
 
 p {
     font-family: var(--p-font);
+    text-align: center;
 }
 
 nav {
@@ -246,9 +255,15 @@ img {
 /*visit us*/
 
 .location {
+    display: flex;
+    flex-direction: column;
     background-color: #DFE8FD;
+    padding: 20px;
 }
 
-.location h3, .location h4, .location h5 {
-    text-align: center;
+.visit-img {
+    max-width: 100%;
+    border-radius: 30px;
+    border: 20px solid #DFE8FD;
+    
 }
