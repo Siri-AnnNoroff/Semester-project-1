@@ -181,7 +181,7 @@ img {
 }
 
 .cta {
-    width: 60%;
+    width: 70%;
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
     font-family: var(--cta-font);
@@ -190,9 +190,12 @@ img {
     flex: 1;
     text-align: center;
     align-self: center;
-    position: absolute;
     top: 75%;
     box-shadow: 0px 10px 10px #a3a1a1;
+}
+
+.cta-index {
+     position: absolute;
 }
 
 .cta-small {
@@ -254,16 +257,21 @@ img {
 
 /*visit us*/
 
-.location {
+.location, .accessibility {
     display: flex;
     flex-direction: column;
     background-color: #DFE8FD;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .visit-img {
     max-width: 100%;
     border-radius: 30px;
-    border: 20px solid #DFE8FD;
-    
+    border: 20px solid #DFE8FD;   
+}
+
+table {
+    font-family: var(--h5-font);
+    text-align: center;
 }
