@@ -298,3 +298,8 @@ table {
     border: 30px solid #DFE8FD;
     margin: 20px;
 }
+
+
+.exhibition-card img {
+    border-radius: 20px;
+}
