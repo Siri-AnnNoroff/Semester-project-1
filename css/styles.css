@@ -217,6 +217,19 @@ img {
     border: solid 1px #000;
 }
 
+.navigation-arrows {
+    color: var(--dark-text-color);
+    padding: 10px;
+    font-family: var(--cta-font);
+}
+.navigation-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -274,4 +287,14 @@ img {
 table {
     font-family: var(--h5-font);
     text-align: center;
+}
+
+/**exhibitions**/
+
+.exhibition-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    border: 30px solid #DFE8FD;
+    margin: 20px;
 }
