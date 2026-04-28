@@ -2,6 +2,8 @@
     .cta-small {
         padding: 10px;
     }
+
+   
 }
 
 @media (min-width: 800px) {
@@ -19,6 +21,10 @@ header {
     justify-content: center;
     gap: 16px;
 }
+
+ .close-button {
+        display: none;
+    }
 
 .footer-content {
     display: grid;
