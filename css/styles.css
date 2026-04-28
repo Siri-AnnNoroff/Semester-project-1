@@ -303,3 +303,20 @@ table {
 .exhibition-card img {
     border-radius: 20px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 10px;
+}
+
+input, textarea {
+    border: none;
+    padding: 10px;
+}
+.fa-circle-exclamation {
+    color: rgb(189, 32, 32);
+}
