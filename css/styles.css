@@ -29,6 +29,7 @@ header, footer {
     background-color: var(--header-color);
     color: var(--light-text-color);
     gap: 10px;
+    padding: 5px;
 }
 
 header img, footer img {
@@ -46,18 +47,21 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 15px;
 }
 
 .footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 .index-h1, .brand-name {
     flex: 1;
@@ -87,17 +91,19 @@ h3 {
 h4 {
     font-family: var(--h4-font);
     font-weight: lighter;
+    font-size: 1rem;
 }
 
 h5 {
     font-family: var(--h5-font);
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 0.6rem;
+    margin: 0;
 }
 
 p {
     font-family: var(--p-font);
-    text-align: center;
+    text-align: left;
 }
 
 nav {
@@ -228,7 +234,9 @@ img {
     justify-content: space-between;
 }
 
-
+.attribution {
+    font-size: 0.6rem;
+}
 
 .cards {
     display: grid;
@@ -280,7 +288,7 @@ img {
 
 .visit-img {
     max-width: 100%;
-    border-radius: 30px;
+    border-radius: 10px;
     border: 20px solid #DFE8FD;   
 }
 
@@ -301,7 +309,7 @@ table {
 
 
 .exhibition-card img {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 form {
