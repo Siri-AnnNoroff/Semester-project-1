@@ -251,20 +251,96 @@ img {
     text-align: center;
     background-color: #000;
     color: var(--light-text-color);
-    margin-top: 30%;
-    animation-name: animation;
-    animation-duration: 3s;
-    animation-delay: 3s;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    border: 30px solid #000;
+    flex: 1;
+    align-content: center;
 }
 
-@keyframes animation {
+@keyframes text {
     from {background-color: #000;}
     to {background-color: #fff;}
+    from {border: 30px solid #000;}
+    to {border: 30px solid #fff;}
+    from {color: var(--light-text-color)} 
+    to {color: var(--dark-text-color);}
+}
+
+.card-cosmology {
+    animation-name: cosmology;
+    animation-duration: 5s;
+    animation-delay: 20s;
+    border: 30px solid #000;
+
+}
+
+@keyframes cosmology {
+    from {background-color: #000;}
+    to {background-color: #521413;}
+    from {border: 30px solid #000;}
+    to { border: 30px solid #521413;}
+}
+
+.card-robotics {
+    animation-name: robotics;
+    animation-duration: 5s;
+    animation-delay: 25s;
+    border: 30px solid #000;
+}
+
+@keyframes robotics {
+    from {background-color: #000;}
+    to {background-color: #B800E5;}
+    from {border: 30px solid #000;}
+    to { border: 30px solid #B800E5;}
+}
+
+.card-evolution {
+    animation-name: evolution;
+    animation-duration: 5s;
+    animation-delay: 30s;
+    border: 30px solid #000;
+}
+
+@keyframes evolution {
+    from {background-color: #000;}
+    to {background-color: #DBD5CA;}
+    from {border: 30px solid #000;}
+    to { border: 30px solid #DBD5CA;}
+}
+
+.card-ecology {
+    animation-name: ecology;
+    animation-duration: 5s;
+    animation-delay: 35s;
+    border: 30px solid #000;
+}
+
+@keyframes ecology {
+    from {background-color: #000;}
+    to {background-color: #1C889E;}
+    from {border: 30px solid #000;}
+    to { border: 30px solid #1C889E;}
+}
+
+.card-biology {
+    animation-name: biology;
+    animation-duration: 5s;
+    animation-delay: 40s;
+    border: 30px solid #000;
+}
+
+@keyframes biology {
+    from {background-color: #000;}
+    to {background-color: #D75F45;}
+    from {border: 30px solid #000;}
+    to { border: 30px solid #D75F45;}
 }
 
 .color-card {
     position: relative;
-    border: 30px solid #000;
     display: flex;
     flex-direction: column;
     background: #000;
