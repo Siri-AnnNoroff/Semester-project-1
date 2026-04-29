@@ -200,6 +200,7 @@ img {
     align-self: center;
     top: 75%;
     box-shadow: 0px 10px 10px #a3a1a1;
+    margin-top: 5%;
 }
 
 .cta-index {
@@ -234,6 +235,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .attribution {
@@ -361,6 +363,10 @@ img {
     text-align: center;
 }
 
+.contact-page p, .visit-page p, .thanks-page p {
+    text-align: center;
+}
+
 
 /*visit us*/
 
@@ -385,7 +391,7 @@ table {
 
 /**exhibitions**/
 
-.exhibition-card {
+.content-card {
     display: flex;
     flex-direction: column;
     background-color: var(--card-background);
@@ -394,7 +400,7 @@ table {
 }
 
 
-.exhibition-card img {
+.content-card img {
     border-radius: 10px;
 }
 
@@ -414,3 +420,4 @@ input, textarea {
 .fa-circle-exclamation {
     color: rgb(189, 32, 32);
 }
+
