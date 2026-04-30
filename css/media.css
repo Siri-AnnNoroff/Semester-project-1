@@ -133,4 +133,12 @@ border: 30px solid #521413;
     padding: 100px;
 }
 
+.form-layout {
+    flex-direction: row;
+}
+
+.form-left, .form-right {
+    flex: 1;
+
+}
 }

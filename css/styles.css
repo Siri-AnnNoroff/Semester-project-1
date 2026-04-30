@@ -401,19 +401,20 @@ table {
     border-radius: 10px;
 }
 
-form {
+.form-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-left, .form-right {
     display: flex;
     flex-direction: column;
 }
 
-label {
-    padding: 10px;
+.form-right textarea {
+    resize: vertical;
 }
 
-input, textarea {
-    border: none;
-    padding: 10px;
-}
 .fa-circle-exclamation {
     color: rgb(189, 32, 32);
 }
