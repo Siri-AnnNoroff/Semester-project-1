@@ -1,9 +1,8 @@
 @media (min-width: 600px) {
+    
     .cta-small {
         padding: 10px;
     }
-
-   
 }
 
 @media (min-width: 800px) {
@@ -16,17 +15,19 @@ header {
 .header-top {
     justify-items: flex-end;
 }
- .close-button {
-        display: none;
-    }
- 
 
+.close-button {
+    display: none;
+}
+ 
 h4 {
     font-size: 1.2rem;
 }
+
 h5 {
     font-size: 1rem;
 }
+
 .nav-large {
     display: block;
     position: static;
@@ -40,28 +41,29 @@ h5 {
 
 
 .hero-image img, .second-hero img {
-   
-   
     width: auto;
-  height: 600px;
-  object-fit: cover;
+    height: 600px;
+    object-fit: cover;
 }
 
 img {
-     width: auto;
-  height: 400px;
-  object-fit: cover;
+    width: auto;
+    height: 400px;
+    object-fit: cover;
 }
+
 .nav-large ul {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
     position: static;  
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
+
 form {
     display: grid;
 }
+
 .brand-name {
     font-size: 3rem;
 }
@@ -70,7 +72,6 @@ form {
     display: none;
 }
 
-
 .hero-image h2, .second-hero h2  {
     font-size: 2rem;
 }
@@ -78,20 +79,17 @@ form {
 .cta {
     font-size: 1rem;
     width: 30%;
-  
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom: 20px solid #000;
-
 }
 
 .cta-small {
-        padding: 10px;
-        font-size: 1rem;
-        
+    padding: 10px;
+    font-size: 1rem;
     }
 
 .card-text {
@@ -141,4 +139,5 @@ border: 30px solid #521413;
     flex: 1;
 
 }
+
 }

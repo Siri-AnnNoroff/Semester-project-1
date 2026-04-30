@@ -62,7 +62,6 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
-
 .index-h1, .brand-name {
     flex: 1;
     font-size: 1rem;
@@ -164,9 +163,6 @@ nav,
     display: none;
 }
 
-/*index*/
-
-
 .hero-image, .second-hero, .color-card {
     display: flex;
     flex-direction: column;
@@ -228,6 +224,7 @@ nav,
     padding: 10px;
     font-family: var(--cta-font);
 }
+
 .navigation-pages {
     display: flex;
     flex-direction: row;
@@ -272,7 +269,6 @@ nav,
     animation-duration: 5s;
     animation-delay: 20s;
     border: 30px solid #000;
-
 }
 
 @keyframes cosmology {
@@ -368,9 +364,6 @@ nav,
     text-align: center;
 }
 
-
-/*visit us*/
-
 .location, .accessibility {
     display: flex;
     flex-direction: column;
@@ -390,8 +383,6 @@ table {
     text-align: center;
 }
 
-/**exhibitions**/
-
 .content-card {
     display: flex;
     flex-direction: column;
@@ -399,7 +390,6 @@ table {
     border: 30px solid #DFE8FD;
     margin: 20px;
 }
-
 
 .content-card img {
     border-radius: 10px;
@@ -409,7 +399,6 @@ input, textarea, label {
     border: none;
     font-family: var(--h3-font);
 }
-
 
 .form-layout {
     display: flex;
@@ -446,10 +435,6 @@ input, textarea, label {
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
