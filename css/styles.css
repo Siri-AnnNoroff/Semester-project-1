@@ -438,3 +438,15 @@ input, textarea, label {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
+
+label {
+    margin: 10px 0px;
+}
+
+input:hover {
+    border: solid 1px #000;
+}
+
+#name, #email {
+    padding: 10px;
+}
