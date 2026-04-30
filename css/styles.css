@@ -166,9 +166,6 @@ nav,
 
 /*index*/
 
-img {
-    max-width: 100%;
-}
 
 .hero-image, .second-hero, .color-card {
     display: flex;
@@ -421,3 +418,18 @@ input, textarea {
     color: rgb(189, 32, 32);
 }
 
+.spinning-logo {
+    width: 250px;
+    height: auto;
+    align-self: center;
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

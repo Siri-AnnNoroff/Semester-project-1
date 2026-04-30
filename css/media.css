@@ -11,26 +11,22 @@
 header {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .header-top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    justify-items: flex-end;
 }
-
  .close-button {
         display: none;
     }
+ 
 
-.footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+h4 {
+    font-size: 1.2rem;
 }
-
+h5 {
+    font-size: 1rem;
+}
 .nav-large {
     display: block;
     position: static;
@@ -38,61 +34,103 @@ header {
     font-family: var(--menu-font);
 }
 
+.card-text, .card-cosmology, .card-robotics, .card-evolution, .card-ecology, .card-biology {
+    animation: none;
+}
+
+
+.hero-image img, .second-hero img {
+   
+   
+    width: auto;
+  height: 600px;
+  object-fit: cover;
+}
+
+img {
+     width: auto;
+  height: 400px;
+  object-fit: cover;
+}
 .nav-large ul {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
     position: static;  
+    font-size: 1.4rem;
+}
+form {
+    display: grid;
+}
+.brand-name {
+    font-size: 3rem;
 }
 
 .bars {
     display: none;
 }
 
-h1 {
-    font-size: 2rem;
-}
 
 .hero-image h2, .second-hero h2  {
     font-size: 2rem;
 }
 
 .cta {
-    font-size: 2rem;
+    font-size: 1rem;
+    width: 30%;
+  
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 20px solid #000;
+
 }
 
 .cta-small {
         padding: 10px;
         font-size: 1rem;
+        
     }
 
 .card-text {
     font-size: 1.2rem;
 }
 
+.card-text:hover {
+    background-color: #fff;
+    color: #000;
+    border: 30px solid #fff;
+}
+
 .card-cosmology:hover {
 background-color: #521413;
+border: 30px solid #521413;
 }
 
 .card-robotics:hover {
     background-color: #B800E5;
+    border: 30px solid #B800E5;
 }
 
 .card-evolution:hover {
     background-color: #DBD5CA;
+    border: 30px solid #DBD5CA;
 }
 
 .card-ecology:hover {
     background-color: #1C889E;
+    border: 30px solid #1C889E;
 }
 
 .card-biology:hover {
     background-color: #D75F45;
+    border: 30px solid #D75F45;
+}
+
+.text-section {
+    padding: 100px;
 }
 
 }
