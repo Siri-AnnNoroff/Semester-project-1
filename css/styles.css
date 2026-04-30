@@ -401,11 +401,18 @@ table {
     border-radius: 10px;
 }
 
+input, textarea, label {
+    border: none;
+    font-family: var(--h3-font);
+}
+
+
 .form-layout {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
+
 .form-left, .form-right {
     display: flex;
     flex-direction: column;
@@ -415,8 +422,16 @@ table {
     resize: vertical;
 }
 
+.submit {
+    justify-self: center;
+}
+
 .fa-circle-exclamation {
     color: rgb(189, 32, 32);
+}
+
+.required {
+    align-self: flex-start;
 }
 
 .spinning-logo {
