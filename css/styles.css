@@ -18,8 +18,8 @@ html, body {
 header, footer {
     background-color: var(--header-color);
     color: var(--light-text-color);
-    gap: 10px;
-    padding: 5px;
+    gap: 1rem;
+    padding: 0.5rem;
 }
 
 .index-h1, .brand-name {
@@ -42,7 +42,7 @@ header, .header-top, .footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .nav-large {
@@ -57,10 +57,10 @@ header, .header-top, .footer-top {
 
 .close-button {
     float: right;
-    font-size: 24px;
+    font-size: 2rem;
     background-color: var(--header-color);
     color: var(--light-text-color);
-    margin-right: 10px;
+    margin: 1rem;
 }
 
 li:hover, .active {
@@ -80,7 +80,7 @@ li:hover, .active {
 
 .navigation-arrows {
     color: var(--dark-text-color);
-    padding: 10px;
+    padding: 1rem;
     font-family: var(--page-font);
 }
 
@@ -88,7 +88,7 @@ li:hover, .active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .footer-content {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, p {
 h1 {
     text-align: center;
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 1.5rem;
 } 
 
 h2 {
@@ -149,7 +149,7 @@ ul {
 li {
     list-style-type: none;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 2rem;
 }
 
 .cta {
@@ -157,7 +157,7 @@ li {
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
     font-family: var(--page-font);
-    padding: 15px;
+    padding: 1rem;
     font-size: 1rem;
     flex: 1;
     text-align: center;
@@ -168,11 +168,11 @@ li {
 }
 
 .cta-small {
-    width: 100%;
+    width: 80%;
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
     font-family: var(--page-font);
-    padding: 5px;
+    padding: 0.5rem;
     font-size: 0.5rem;
     flex: 1;
     text-align: center;
@@ -191,7 +191,7 @@ li {
     flex-direction: column;
     background-color: var(--card-background);
     border: 30px solid #DFE8FD;
-    margin: 20px;
+    margin: 2rem;
 }
 
 .content-card img {
@@ -214,7 +214,7 @@ li {
     position: absolute;
     top: 25%;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .cta-index {
@@ -340,7 +340,7 @@ li {
 }
 
 .text-section {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: #F6F4E9;
     text-align: center;
 }
@@ -353,7 +353,7 @@ li {
 
 .visit-img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 20px solid #DFE8FD;   
 }
 
@@ -361,8 +361,8 @@ li {
     display: flex;
     flex-direction: column;
     background-color: #DFE8FD;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 table {
@@ -378,7 +378,7 @@ input, textarea, label {
 }
 
 label {
-    margin: 10px 0px;
+    margin: 1rem 0rem;
 }
 
 input:hover {
@@ -386,13 +386,13 @@ input:hover {
 }
 
 #name, #email {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .form-layout {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10%;
 }
 
 .form-left, .form-right {
@@ -421,7 +421,7 @@ textarea {
 /**Thank you page**/
 
 .spinning-logo {
-    width: 250px;
+    width: 20%;
     height: auto;
     align-self: center;
     animation: spin 1s linear;

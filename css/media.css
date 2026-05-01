@@ -46,7 +46,7 @@ header {
 
 .hero-image img, .second-hero img {
     width: auto;
-    height: 600px;
+    height: 40rem;
     object-fit: cover;
 }
 
@@ -60,7 +60,7 @@ header {
 }
 
 .cta-small {
-    padding: 10px;
+    padding: 0.8rem;
     font-size: 1rem;
 }
 
@@ -70,7 +70,7 @@ h4 {
 
 img {
     width: auto;
-    height: 400px;
+    height: 30rem;
     object-fit: cover;
 }
 
@@ -116,7 +116,7 @@ border: 30px solid #521413;
 }
 
 .text-section {
-    padding: 100px;
+    padding: 5rem;
 }
 
 .card-text, .card-cosmology, .card-robotics, .card-evolution, .card-ecology, .card-biology {
