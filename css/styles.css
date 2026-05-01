@@ -416,7 +416,8 @@ input, textarea, label {
 }
 
 .submit {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 .fa-circle-exclamation {
