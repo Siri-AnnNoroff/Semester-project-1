@@ -22,36 +22,6 @@ header, footer {
     padding: 5px;
 }
 
-header img, footer img {
-    width: 20%;
-    height: 100%;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 15px;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .index-h1, .brand-name {
     flex: 1;
     font-size: 1rem;
@@ -59,41 +29,20 @@ header {
     font-family: var(--brand-font);
 }
 
-h1 {
-    font-family: var(--page-font);
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 20px;
-} 
-
-h2 {
-    font-family: var(--page-font);
-    font-weight:normal;
-    text-align: center;
+.bars {
+    font-size: 28px;
 }
 
-h3 {
-    font-family: var(--page-font);
-    font-weight: normal;
-    font-size: 1.2rem;
+header img, footer img {
+    width: 20%;
+    height: 100%;
 }
 
-h4 {
-    font-family: var(--page-font);
-    font-weight: lighter;
-    font-size: 1rem;
-}
-
-h5 {
-    font-family: var(--page-font);
-    font-weight: lighter;
-    font-size: 0.6rem;
-    margin: 0;
-}
-
-p {
-    font-family: var(--page-font);
-    text-align: left;
+header, .header-top, .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
 .nav-large {
@@ -114,6 +63,79 @@ p {
     margin-right: 10px;
 }
 
+li:hover, .active {
+    text-decoration: underline;
+}
+
+#menu-checkbox:checked ~ .nav-large {
+    display: block;
+    background-color: var(--header-color);
+    font-family: var(--page-font);
+    font-weight: bolder;
+}
+
+.nav-large, #menu-checkbox {
+    display: none;
+}
+
+.navigation-arrows {
+    color: var(--dark-text-color);
+    padding: 10px;
+    font-family: var(--page-font);
+}
+
+.navigation-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-nav li{
+    text-align: left;
+    font-family: var(--page-font);
+}
+
+.attribution {
+    font-size: 0.6rem;
+}
+
+address {
+    font-style: normal;
+}
+
+h1, h2, h3, h4, p {
+    font-family: var(--page-font);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+} 
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+p {
+    text-align: left;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -130,47 +152,6 @@ li {
     padding-top: 25px;
 }
 
-li:hover {
-    text-decoration: underline;
-}
-
-.active {
-    text-decoration: underline;
-}
-
-.bars {
-    font-size: 28px;
-}
-
-#menu-checkbox:checked ~ .nav-large {
-    display: block;
-    background-color: var(--header-color);
-    font-family: var(--page-font);
-    font-weight: bolder;
-}
-
-.nav-large, 
-#menu-checkbox {
-    display: none;
-}
-
-.hero-image, .second-hero, .color-card {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.hero-image h1, .second-hero h2 {
-    width: 100%;
-    background-color: var(--header-color);
-    color: var(--light-text-color);
-    font-family: var(--page-font);
-    position: absolute;
-    top: 25%;
-    text-align: center;
-    padding: 10px;
-}
-
 .cta {
     width: 70%;
     background-color: var(--cta-background-color);
@@ -184,10 +165,6 @@ li:hover {
     top: 75%;
     box-shadow: 0px 10px 10px #a3a1a1;
     margin-top: 5%;
-}
-
-.cta-index {
-     position: absolute;
 }
 
 .cta-small {
@@ -209,25 +186,39 @@ li:hover {
     border: solid 1px #000;
 }
 
-.navigation-arrows {
-    color: var(--dark-text-color);
-    padding: 10px;
-    font-family: var(--page-font);
-}
-
-.navigation-pages {
+.content-card {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-}
-.footer-nav li{
-    text-align: left;
-    font-family: var(--page-font);
+    flex-direction: column;
+    background-color: var(--card-background);
+    border: 30px solid #DFE8FD;
+    margin: 20px;
 }
 
-.attribution {
-    font-size: 0.6rem;
+.content-card img {
+    border-radius: 10px;
+}
+
+/**index page**/
+
+.hero-image, .second-hero, .color-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-image h1, .second-hero h2 {
+    width: 100%;
+    background-color: var(--header-color);
+    color: var(--light-text-color);
+    font-family: var(--page-font);
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+.cta-index {
+     position: absolute;
 }
 
 .cards {
@@ -336,7 +327,7 @@ li:hover {
     color: var(--light-text-color);
 }
 
-.evolution-card img{
+.evolution-card img {
      object-position: top;
 }
 
@@ -358,6 +349,14 @@ li:hover {
     text-align: center;
 }
 
+/**Visit us page**/
+
+.visit-img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 20px solid #DFE8FD;   
+}
+
 .location, .accessibility {
     display: flex;
     flex-direction: column;
@@ -366,32 +365,28 @@ li:hover {
     margin-bottom: 20px;
 }
 
-.visit-img {
-    max-width: 100%;
-    border-radius: 10px;
-    border: 20px solid #DFE8FD;   
-}
-
 table {
     font-family: var(--page-font);
     text-align: center;
 }
 
-.content-card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--card-background);
-    border: 30px solid #DFE8FD;
-    margin: 20px;
-}
-
-.content-card img {
-    border-radius: 10px;
-}
+/**Contact us page**/
 
 input, textarea, label {
     border: none;
     font-family: var(--page-font);
+}
+
+label {
+    margin: 10px 0px;
+}
+
+input:hover {
+    border: solid 1px #000;
+}
+
+#name, #email {
+    padding: 10px;
 }
 
 .form-layout {
@@ -405,17 +400,14 @@ input, textarea, label {
     flex-direction: column;
 }
 
-.form-right textarea {
+textarea {
     resize: vertical;
 }
 
 .submit {
     display: flex;
-    justify-content: center;
-}
-
-address {
-    font-style: normal;
+    justify-self: center;
+    width: 70%;
 }
 
 .fa-circle-exclamation {
@@ -425,6 +417,8 @@ address {
 .required {
     align-self: flex-start;
 }
+
+/**Thank you page**/
 
 .spinning-logo {
     width: 250px;
@@ -436,16 +430,4 @@ address {
 @keyframes spin {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
-}
-
-label {
-    margin: 10px 0px;
-}
-
-input:hover {
-    border: solid 1px #000;
-}
-
-#name, #email {
-    padding: 10px;
 }

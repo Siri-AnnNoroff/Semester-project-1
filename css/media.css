@@ -1,8 +1,8 @@
 @media (min-width: 600px) {
     
-    .cta-small {
-        padding: 10px;
-    }
+.cta-small {        
+    padding: 10px;
+}
 }
 
 @media (min-width: 800px) {
@@ -19,15 +19,14 @@ header {
 .close-button {
     display: none;
 }
- 
-h4 {
-    font-size: 1.2rem;
+
+.bars {
+    display: none;
 }
 
-h5 {
-    font-size: 1rem;
+.brand-name {
+    font-size: 3rem;
 }
-
 
 .nav-large {
     display: block;
@@ -35,23 +34,6 @@ h5 {
     width: 100%;
     font-family: var(--page-font);
     font-weight: bolder;
-}
-
-.card-text, .card-cosmology, .card-robotics, .card-evolution, .card-ecology, .card-biology {
-    animation: none;
-}
-
-
-.hero-image img, .second-hero img {
-    width: auto;
-    height: 600px;
-    object-fit: cover;
-}
-
-img {
-    width: auto;
-    height: 400px;
-    object-fit: cover;
 }
 
 .nav-large ul {
@@ -62,16 +44,10 @@ img {
     font-size: 1rem;
 }
 
-form {
-    display: grid;
-}
-
-.brand-name {
-    font-size: 3rem;
-}
-
-.bars {
-    display: none;
+.hero-image img, .second-hero img {
+    width: auto;
+    height: 600px;
+    object-fit: cover;
 }
 
 .hero-image h1, .second-hero h2  {
@@ -83,16 +59,26 @@ form {
     width: 30%;
 }
 
+.cta-small {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom: 20px solid #000;
 }
-
-.cta-small {
-    padding: 10px;
-    font-size: 1rem;
-    }
 
 .card-text {
     font-size: 1.2rem;
@@ -131,6 +117,14 @@ border: 30px solid #521413;
 
 .text-section {
     padding: 100px;
+}
+
+.card-text, .card-cosmology, .card-robotics, .card-evolution, .card-ecology, .card-biology {
+    animation: none;
+}
+
+form {
+    display: grid;
 }
 
 .form-layout {
