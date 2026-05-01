@@ -33,7 +33,8 @@ h5 {
     display: block;
     position: static;
     width: 100%;
-    font-family: var(--menu-font);
+    font-family: var(--page-font);
+    font-weight: bolder;
 }
 
 .card-text, .card-cosmology, .card-robotics, .card-evolution, .card-ecology, .card-biology {
@@ -73,7 +74,7 @@ form {
     display: none;
 }
 
-.hero-image h2, .second-hero h2  {
+.hero-image h1, .second-hero h2  {
     font-size: 2rem;
 }
 

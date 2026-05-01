@@ -6,18 +6,8 @@
 }
 
 @font-face {
-    font-family: "Unbounded-Light";
-    src: url(/fonts/Unbounded-Light.ttf) format("truetype");
-}
-
-@font-face {
     font-family: "Unbounded-Regular";
     src: url(/fonts/Unbounded-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Unbounded-Bold";
-    src: url(/fonts/Unbounded-Bold.ttf) format("truetype");
 }
 
 html, body {
@@ -70,39 +60,39 @@ header {
 }
 
 h1 {
-    font-family: var(--h1-font);
+    font-family: var(--page-font);
     text-align: center;
     font-size: 1.5rem;
     padding: 20px;
 } 
 
 h2 {
-    font-family: var(--h2-font);
+    font-family: var(--page-font);
     font-weight:normal;
     text-align: center;
 }
 
 h3 {
-    font-family: var(--h3-font);
+    font-family: var(--page-font);
     font-weight: normal;
     font-size: 1.2rem;
 }
 
 h4 {
-    font-family: var(--h4-font);
+    font-family: var(--page-font);
     font-weight: lighter;
     font-size: 1rem;
 }
 
 h5 {
-    font-family: var(--h5-font);
+    font-family: var(--page-font);
     font-weight: lighter;
     font-size: 0.6rem;
     margin: 0;
 }
 
 p {
-    font-family: var(--p-font);
+    font-family: var(--page-font);
     text-align: left;
 }
 
@@ -155,7 +145,8 @@ li:hover {
 #menu-checkbox:checked ~ .nav-large {
     display: block;
     background-color: var(--header-color);
-    font-family: var(--menu-font);
+    font-family: var(--page-font);
+    font-weight: bolder;
 }
 
 .nav-large, 
@@ -173,19 +164,18 @@ li:hover {
     width: 100%;
     background-color: var(--header-color);
     color: var(--light-text-color);
-    font-family: var(--h2-font);
+    font-family: var(--page-font);
     position: absolute;
     top: 25%;
     text-align: center;
     padding: 10px;
-    font-size: 1rem;
 }
 
 .cta {
     width: 70%;
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
-    font-family: var(--cta-font);
+    font-family: var(--page-font);
     padding: 15px;
     font-size: 1rem;
     flex: 1;
@@ -204,7 +194,7 @@ li:hover {
     width: 100%;
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
-    font-family: var(--cta-font);
+    font-family: var(--page-font);
     padding: 5px;
     font-size: 0.5rem;
     flex: 1;
@@ -222,7 +212,7 @@ li:hover {
 .navigation-arrows {
     color: var(--dark-text-color);
     padding: 10px;
-    font-family: var(--cta-font);
+    font-family: var(--page-font);
 }
 
 .navigation-pages {
@@ -233,7 +223,7 @@ li:hover {
 }
 .footer-nav li{
     text-align: left;
-    font-family: var(--h4-font);
+    font-family: var(--page-font);
 }
 
 .attribution {
@@ -383,7 +373,7 @@ li:hover {
 }
 
 table {
-    font-family: var(--h5-font);
+    font-family: var(--page-font);
     text-align: center;
 }
 
@@ -401,7 +391,7 @@ table {
 
 input, textarea, label {
     border: none;
-    font-family: var(--h3-font);
+    font-family: var(--page-font);
 }
 
 .form-layout {
