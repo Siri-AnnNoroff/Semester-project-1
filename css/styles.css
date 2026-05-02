@@ -389,15 +389,10 @@ input:hover {
     padding: 1rem;
 }
 
-.form-layout {
+.form-layout, .form-left, .form-right {
     display: flex;
     flex-direction: column;
     gap: 10%;
-}
-
-.form-left, .form-right {
-    display: flex;
-    flex-direction: column;
 }
 
 textarea {
@@ -408,6 +403,7 @@ textarea {
     display: flex;
     justify-self: center;
     width: 70%;
+    margin: 3rem;
 }
 
 .fa-circle-exclamation {
