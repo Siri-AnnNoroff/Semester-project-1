@@ -22,9 +22,8 @@ header, footer {
     padding: 0.5rem;
 }
 
-.index-h1, .brand-name {
+.brand-name {
     flex: 1;
-    font-size: 1rem;
     text-align: center;
     font-family: var(--brand-font);
 }
@@ -58,8 +57,6 @@ header, .header-top, .footer-top {
 .close-button {
     float: right;
     font-size: 2rem;
-    background-color: var(--header-color);
-    color: var(--light-text-color);
     margin: 1rem;
 }
 
@@ -86,7 +83,6 @@ li:hover, .active {
 
 .navigation-pages {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
 }
@@ -114,17 +110,17 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-    text-align: center;
     font-size: 1.5rem;
     padding: 1.5rem;
 } 
 
-h2 {
+h2, h1 {
     text-align: center;
 }
 
 h3 {
     font-size: 1.2rem;
+    text-align: center;
 }
 
 h4 {
@@ -158,7 +154,6 @@ li {
     color: var(--dark-text-color);
     font-family: var(--page-font);
     padding: 1rem;
-    font-size: 1rem;
     flex: 1;
     text-align: center;
     align-self: center;
@@ -186,12 +181,12 @@ li {
     border: solid 1px #000;
 }
 
-.content-card {
+.content-card, .location, .accessibility {
     display: flex;
     flex-direction: column;
     background-color: var(--card-background);
     border: 30px solid #DFE8FD;
-    margin: 2rem;
+    margin: 1.5rem;
 }
 
 .content-card img {
@@ -224,12 +219,10 @@ li {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    position: relative;
 }
 
 .card-text {
     font-size: 0.7rem;
-    text-align: center;
     background-color: #000;
     color: var(--light-text-color);
     animation-name: text;
@@ -320,11 +313,7 @@ li {
 }
 
 .color-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     background: #000;
-    color: var(--light-text-color);
 }
 
 .evolution-card img {
@@ -342,7 +331,6 @@ li {
 .text-section {
     padding: 1rem 2rem;
     background-color: #F6F4E9;
-    text-align: center;
 }
 
 .contact-page p, .visit-page p, .thanks-page p {
@@ -352,17 +340,8 @@ li {
 /**Visit us page**/
 
 .visit-img {
-    max-width: 100%;
     border-radius: 30px;
     border: 20px solid #DFE8FD;   
-}
-
-.location, .accessibility {
-    display: flex;
-    flex-direction: column;
-    background-color: #DFE8FD;
-    padding: 2rem;
-    margin-bottom: 2rem;
 }
 
 table {
@@ -385,7 +364,7 @@ input:hover {
     border: solid 1px #000;
 }
 
-#name, #email {
+#name, #email{
     padding: 1rem;
 }
 
@@ -395,15 +374,15 @@ input:hover {
     gap: 10%;
 }
 
-textarea {
-    resize: vertical;
-}
-
 .submit {
     display: flex;
     justify-self: center;
     width: 70%;
     margin: 3rem;
+}
+
+textarea {
+    min-height: 10rem;
 }
 
 .fa-circle-exclamation {
