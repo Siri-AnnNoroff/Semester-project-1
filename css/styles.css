@@ -26,6 +26,7 @@ header, footer {
     flex: 1;
     text-align: center;
     font-family: var(--brand-font);
+    font-size: 1.5rem;
 }
 
 .bars {
@@ -192,6 +193,10 @@ li {
 .content-card img {
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.footer-li {
+    padding: 0;
 }
 
 /**index page**/
