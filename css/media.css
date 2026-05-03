@@ -3,6 +3,11 @@
 .cta-small {        
     padding: 10px;
 }
+
+.br-small {
+    display: none;
+}
+
 }
 
 @media (min-width: 800px) {
@@ -61,7 +66,7 @@ header {
 
 .cta-small {
     padding: 0.8rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 h4 {
@@ -123,8 +128,8 @@ border: 30px solid #521413;
     animation: none;
 }
 
-form {
-    display: grid;
+.navigation-pages {
+    font-size: 1.3rem;
 }
 
 .form-layout {
@@ -133,7 +138,6 @@ form {
 
 .form-left, .form-right {
     flex: 1;
-
 }
 
 }
