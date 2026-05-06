@@ -212,6 +212,10 @@ li {
     position: relative;
 }
 
+.hero-image, .second-hero {
+    height: 600px;
+}
+
 .hero-image h1, .second-hero h2 {
     width: 100%;
     background-color: var(--header-color);
