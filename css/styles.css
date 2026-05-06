@@ -29,6 +29,11 @@ header, footer {
     font-size: 1.5rem;
 }
 
+.tagline {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 .bars {
     font-size: 28px;
 }
