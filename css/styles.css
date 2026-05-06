@@ -213,7 +213,7 @@ li {
 }
 
 .hero-image, .second-hero {
-    height: 600px;
+    height: 400px;
 }
 
 .hero-image h1, .second-hero h2 {
@@ -229,6 +229,7 @@ li {
 
 .cta-index {
      position: absolute;
+     width: 60%;
 
 }
 

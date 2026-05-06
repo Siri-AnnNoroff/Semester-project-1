@@ -49,10 +49,8 @@ header {
     font-size: 1rem;
 }
 
-.hero-image img, .second-hero img {
-    width: auto;
-    height: 40rem;
-    object-fit: cover;
+.hero-image, .second-hero {
+    height: 100%;
 }
 
 .hero-image h1, .second-hero h2  {
