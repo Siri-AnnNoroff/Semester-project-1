@@ -5,6 +5,6 @@
     --dark-text-color: #000000; 
     --cta-background-color: #fff;
     --card-background: #DFE8FD;
-    --brand-font: "ZenDots-Regular";
-    --page-font:"Unbounded-Regular";
+    --brand-font: "ZenDots-Regular", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --page-font:"Unbounded-Regular", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
