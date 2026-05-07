@@ -26,7 +26,7 @@ header, footer {
     flex: 1;
     text-align: center;
     font-family: var(--brand-font);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .tagline {
@@ -39,7 +39,7 @@ header, footer {
 }
 
 header img, footer img {
-    width: 25%;
+    width: 30%;
     height: 100%;
 }
 
@@ -169,7 +169,7 @@ li {
 }
 
 .cta-small {
-    width: 80%;
+    width: 90%;
     background-color: var(--cta-background-color);
     color: var(--dark-text-color);
     font-family: var(--page-font);
