@@ -242,7 +242,7 @@ li {
     background-color: #000;
     color: var(--light-text-color);
     animation-name: text;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-delay: 5s;
     border: 30px solid #000;
     flex: 1;
