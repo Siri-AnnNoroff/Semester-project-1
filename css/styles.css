@@ -242,8 +242,8 @@ li {
     background-color: #000;
     color: var(--light-text-color);
     animation-name: text;
-    animation-duration: 5s;
-    animation-delay: 10s;
+    animation-duration: 3s;
+    animation-delay: 5s;
     border: 30px solid #000;
     flex: 1;
     align-content: center;
@@ -260,8 +260,8 @@ li {
 
 .card-cosmology {
     animation-name: cosmology;
-    animation-duration: 5s;
-    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-delay: 8s;
     border: 30px solid #000;
 }
 
@@ -274,8 +274,8 @@ li {
 
 .card-robotics {
     animation-name: robotics;
-    animation-duration: 5s;
-    animation-delay: 25s;
+    animation-duration: 3s;
+    animation-delay: 11s;
     border: 30px solid #000;
 }
 
@@ -288,8 +288,8 @@ li {
 
 .card-evolution {
     animation-name: evolution;
-    animation-duration: 5s;
-    animation-delay: 30s;
+    animation-duration: 3s;
+    animation-delay: 14s;
     border: 30px solid #000;
 }
 
@@ -302,8 +302,8 @@ li {
 
 .card-ecology {
     animation-name: ecology;
-    animation-duration: 5s;
-    animation-delay: 35s;
+    animation-duration: 3s;
+    animation-delay: 17s;
     border: 30px solid #000;
 }
 
@@ -316,8 +316,8 @@ li {
 
 .card-biology {
     animation-name: biology;
-    animation-duration: 5s;
-    animation-delay: 40s;
+    animation-duration: 3s;
+    animation-delay: 20s;
     border: 30px solid #000;
 }
 
