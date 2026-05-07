@@ -242,11 +242,10 @@ li {
     background-color: #000;
     color: var(--light-text-color);
     animation-name: text;
-    animation-duration: 10s;
+    animation-duration: 3s;
     animation-delay: 5s;
     border: 30px solid #000;
     flex: 1;
-    animation-timing-function: ease-in-out;
     align-content: center;
 }
 
@@ -271,10 +270,14 @@ li {
 }
 
 @keyframes cosmology {
-    from {background-color: #000;}
-    to {background-color: #521413;}
-    from {border: 30px solid #000;}
-    to { border: 30px solid #521413;}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+    }
+    to {
+        background-color: #521413;
+        border: 30px solid #521413;
+    }
 }
 
 .card-robotics {
@@ -285,10 +288,14 @@ li {
 }
 
 @keyframes robotics {
-    from {background-color: #000;}
-    to {background-color: #B800E5;}
-    from {border: 30px solid #000;}
-    to { border: 30px solid #B800E5;}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+    }
+    to {
+        background-color: #B800E5;
+        border: 30px solid #B800E5;
+    }
 }
 
 .card-evolution {
@@ -299,10 +306,14 @@ li {
 }
 
 @keyframes evolution {
-    from {background-color: #000;}
-    to {background-color: #DBD5CA;}
-    from {border: 30px solid #000;}
-    to { border: 30px solid #DBD5CA;}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+    }
+    to {
+        background-color: #DBD5CA;
+        border: 30px solid #DBD5CA;
+    }
 }
 
 .card-ecology {
@@ -313,10 +324,14 @@ li {
 }
 
 @keyframes ecology {
-    from {background-color: #000;}
-    to {background-color: #1C889E;}
-    from {border: 30px solid #000;}
-    to { border: 30px solid #1C889E;}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+    }
+    to {
+        background-color: #1C889E;
+        border: 30px solid #1C889E;
+    }
 }
 
 .card-biology {
@@ -327,10 +342,14 @@ li {
 }
 
 @keyframes biology {
-    from {background-color: #000;}
-    to {background-color: #D75F45;}
-    from {border: 30px solid #000;}
-    to { border: 30px solid #D75F45;}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+    }
+    to {
+        background-color: #D75F45;
+        border: 30px solid #D75F45;
+    }
 }
 
 .color-card {
