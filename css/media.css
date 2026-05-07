@@ -30,7 +30,7 @@ header {
 }
 
 .brand-name {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .nav-large {
@@ -50,11 +50,12 @@ header {
 }
 
 header img, footer img {
-    width: 20%;
+    width: 15%;
 }
 
 .hero-image, .second-hero {
-    height: 100%;
+    height: 40rem;
+    overflow: hidden;
 }
 
 .hero-image h1, .second-hero h2  {
