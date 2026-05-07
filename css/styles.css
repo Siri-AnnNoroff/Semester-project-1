@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "ZenDots-Regular";
-    src: url(/fonts/ZenDots-Regular.ttf) format("truetype");
+    src: url(../fonts/ZenDots-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Unbounded-Regular";
-    src: url(/fonts/Unbounded-Regular.ttf) format("truetype");
+    src: url(../fonts/Unbounded-Regular.ttf) format("truetype");
 }
 
 html, body {
