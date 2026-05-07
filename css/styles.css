@@ -174,7 +174,7 @@ li {
     color: var(--dark-text-color);
     font-family: var(--page-font);
     padding: 0.5rem;
-    font-size: 0.4rem;
+    font-size: 1rem;
     flex: 1;
     text-align: center;
     align-self: center;
