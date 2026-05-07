@@ -251,12 +251,16 @@ li {
 }
 
 @keyframes text {
-    from {background-color: #000;}
-    to {background-color: #fff;}
-    from {border: 30px solid #000;}
-    to {border: 30px solid #fff;}
-    from {color: var(--light-text-color)} 
-    to {color: var(--dark-text-color);}
+    from {
+        background-color: #000;
+        border: 30px solid #000;
+        color: var(--light-text-color);
+    }
+    to {
+        background-color: #fff;
+        border: 30px solid #fff;
+        color: var(--dark-text-color);
+    }
 }
 
 .card-cosmology {
