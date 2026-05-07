@@ -260,7 +260,7 @@ li {
 
 .card-cosmology {
     animation-name: cosmology;
-    transition-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
     animation-duration: 3s;
     animation-delay: 8s;
     border: 30px solid #000;
