@@ -260,6 +260,7 @@ li {
 
 .card-cosmology {
     animation-name: cosmology;
+    transition-timing-function: ease-in-out;
     animation-duration: 3s;
     animation-delay: 8s;
     border: 30px solid #000;
@@ -407,7 +408,7 @@ textarea {
 /**Thank you page**/
 
 .spinning-logo {
-    width: 20%;
+    width: 30%;
     height: auto;
     align-self: center;
     animation: spin 1s linear;
