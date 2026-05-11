@@ -29,11 +29,6 @@ header, footer {
     font-size: 1.1rem;
 }
 
-.tagline {
-    text-align: center;
-    font-size: 1.2rem;
-}
-
 .bars {
     font-size: 28px;
 }
@@ -165,7 +160,7 @@ li {
     align-self: center;
     top: 60%;
     box-shadow: 0px 10px 10px #a3a1a1;
-    margin-top: 5%;
+    margin: 5%;
 }
 
 .cta-small {
@@ -374,7 +369,7 @@ li {
     background-color: #F6F4E9;
 }
 
-.contact-page p, .visit-page p, .thanks-page p {
+.contact-page p, .visit-page p, .thanks-page p, .exhibiton-spesific {
     text-align: center;
 }
 
