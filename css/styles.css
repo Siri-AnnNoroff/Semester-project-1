@@ -97,7 +97,6 @@ li:hover, .active {
 .footer-nav li{
     text-align: left;
     font-family: var(--page-font);
-    padding: 7px;
 }
 
 .attribution {
@@ -194,10 +193,6 @@ li {
 .content-card img {
     border-radius: 10px;
     margin-bottom: 20px;
-}
-
-.footer-li {
-    padding: 0;
 }
 
 /**index page**/
