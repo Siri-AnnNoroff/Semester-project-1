@@ -348,15 +348,9 @@ li {
     background: #000;
 }
 
-.evolution-card img {
-     object-position: top;
-}
-
 .color-card img {
     align-self: center;
     width: 80%;
-    height: 100%;
-    object-fit: contain;
     margin-bottom: 25%;
 }
 
