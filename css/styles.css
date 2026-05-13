@@ -97,6 +97,7 @@ li:hover, .active {
 .footer-nav li{
     text-align: left;
     font-family: var(--page-font);
+    padding: 7px;
 }
 
 .attribution {
