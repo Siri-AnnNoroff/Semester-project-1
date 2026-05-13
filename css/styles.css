@@ -3,11 +3,13 @@
 @font-face {
     font-family: "ZenDots-Regular";
     src: url(../fonts/ZenDots-Regular.ttf) format("truetype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Unbounded-Regular";
     src: url(../fonts/Unbounded-Regular.ttf) format("truetype");
+    font-display: swap;
 }
 
 html, body {
