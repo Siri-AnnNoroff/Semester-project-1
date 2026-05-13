@@ -21,18 +21,19 @@ header, footer {
     background-color: var(--header-color);
     color: var(--light-text-color);
     gap: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .brand-name {
-    flex: 1;
     text-align: center;
     font-family: var(--brand-font);
     font-size: 1.1rem;
 }
 
 .bars {
-    font-size: 28px;
+    margin-left: 20px;
+    width: 250px;
+    
 }
 
 header img, footer img {
@@ -42,9 +43,8 @@ header img, footer img {
 
 header, .header-top, .footer-top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    justify-content: space-between;
 }
 
 .nav-large {
