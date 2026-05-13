@@ -367,7 +367,10 @@ li {
 
 .visit-img {
     border-radius: 30px;
-    border: 20px solid #DFE8FD;   
+    border: 20px solid #DFE8FD;
+    max-width: 800px;
+    height: auto;
+    align-self: center;   
 }
 
 table {
