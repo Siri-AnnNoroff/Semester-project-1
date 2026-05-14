@@ -398,14 +398,6 @@ textarea {
     min-height: 10rem;
 }
 
-.fa-circle-exclamation {
-    color: rgb(145, 26, 26);
-}
-
-.required {
-    align-self: flex-start;
-}
-
 /**Thank you page**/
 
 .spinning-logo {
