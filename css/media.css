@@ -23,11 +23,7 @@ header {
     align-self: center;
 }
 
-.close-button {
-    display: none;
-}
-
-.bars {
+.close-button, .bars {
     display: none;
 }
 
@@ -55,11 +51,7 @@ header img, footer img {
     width: 15%;
 }
 
-.hero-image h1, .second-hero h2  {
-    font-size: 2rem;
-}
-
-h1 {
+.hero-image h1, .second-hero h2, h1  {
     font-size: 2rem;
 }
 
@@ -74,7 +66,7 @@ h1 {
     width: 80%;
 }
 
-h4 {
+h4, .card-text {
     font-size: 1.2rem;
 }
 
@@ -93,10 +85,6 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom: 20px solid #000;
-}
-
-.card-text {
-    font-size: 1.2rem;
 }
 
 .card-text:hover {

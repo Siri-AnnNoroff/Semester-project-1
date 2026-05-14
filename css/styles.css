@@ -33,7 +33,6 @@ header, footer {
 
 .bars {
     max-width: 200px;
-    
 }
 
 header img, footer img {
@@ -109,7 +108,7 @@ address {
     font-style: normal;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, table {
     font-family: var(--page-font);
 }
 
@@ -118,13 +117,12 @@ h1 {
     padding: 1.5rem;
 } 
 
-h2, h1 {
+h2, h1, h3, li {
     text-align: center;
 }
 
 h3 {
     font-size: 1.2rem;
-    text-align: center;
 }
 
 h4 {
@@ -148,7 +146,6 @@ ul {
 
 li {
     list-style-type: none;
-    text-align: center;
     padding-top: 2rem;
 }
 
@@ -219,7 +216,6 @@ li {
 .cta-index {
      position: absolute;
      width: 60%;
-
 }
 
 .cards {
@@ -357,7 +353,7 @@ li {
     background-color: #F6F4E9;
 }
 
-.contact-page p, .visit-page p, .thanks-page p, .exhibiton-spesific {
+.contact-page p, .visit-page p, .thanks-page p, .exhibiton-spesific, table {
     text-align: center;
 }
 
@@ -369,11 +365,6 @@ li {
     max-width: 800px;
     height: auto;
     align-self: center;   
-}
-
-table {
-    font-family: var(--page-font);
-    text-align: center;
 }
 
 /**Contact us page**/
