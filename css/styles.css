@@ -181,7 +181,7 @@ li {
     border: solid 1px #000;
 }
 
-.content-card, .location, .accessibility {
+.content-card {
     display: flex;
     flex-direction: column;
     background-color: var(--card-background);
@@ -190,7 +190,7 @@ li {
 }
 
 .content-card img {
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 20px;
 }
 
@@ -364,7 +364,6 @@ li {
     border: 20px solid #DFE8FD;
     max-width: 800px;
     height: auto;
-    align-self: center;   
 }
 
 /**Contact us page**/
