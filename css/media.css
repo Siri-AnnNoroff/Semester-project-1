@@ -18,7 +18,7 @@ header {
     flex-direction: column;
 }
 
-.header-top {
+.header-top, .footer-top {
     justify-items: flex-end;
     align-self: center;
 }
@@ -53,11 +53,6 @@ header {
 
 header img, footer img {
     width: 15%;
-}
-
-.hero-image, .second-hero {
-
-  
 }
 
 .hero-image h1, .second-hero h2  {
@@ -111,8 +106,8 @@ h4 {
 }
 
 .card-cosmology:hover {
-background-color: #521413;
-border: 30px solid #521413;
+    background-color: #521413;
+    border: 30px solid #521413;
 }
 
 .card-robotics:hover {
