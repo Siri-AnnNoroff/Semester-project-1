@@ -28,23 +28,23 @@ header, footer {
     text-align: center;
     font-family: var(--brand-font);
     font-size: 1.1rem;
+    margin-right: 16%;
 }
 
 .bars {
-    margin-left: 20px;
-    width: 250px;
+    max-width: 200px;
     
 }
 
 header img, footer img {
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 
-header, .header-top, .footer-top {
+.header-top, .footer-top {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
 }
 
 .nav-large {
@@ -203,10 +203,6 @@ li {
     display: flex;
     flex-direction: column;
     position: relative;
-}
-
-.hero-image, .second-hero {
-    height: 400px;
 }
 
 .hero-image h1, .second-hero h2 {

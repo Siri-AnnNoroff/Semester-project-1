@@ -2,6 +2,7 @@
     
 .cta-small {        
     padding: 10px;
+    width: 90%;
 }
 
 .br-small {
@@ -19,6 +20,7 @@ header {
 
 .header-top {
     justify-items: flex-end;
+    align-self: center;
 }
 
 .close-button {
@@ -54,8 +56,8 @@ header img, footer img {
 }
 
 .hero-image, .second-hero {
-    height: 40rem;
-    overflow: hidden;
+
+  
 }
 
 .hero-image h1, .second-hero h2  {
