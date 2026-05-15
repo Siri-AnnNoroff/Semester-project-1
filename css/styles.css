@@ -357,15 +357,6 @@ li {
     text-align: center;
 }
 
-/**Visit us page**/
-
-.visit-img {
-    border-radius: 30px;
-    border: 20px solid #DFE8FD;
-    max-width: 800px;
-    height: auto;
-}
-
 /**Contact us page**/
 
 input, textarea, label {
